@@ -167,9 +167,11 @@ p {
 }
 
 .btn__header:hover {
-  padding: 25px 74px;
-  background-color: #c79f41;
+  background-color: #fff;
+  color: #b88e2f;
+  border: 2px solid #b88e2f;
 }
+
 /*  */
 
 .hero {
@@ -211,6 +213,7 @@ p {
   margin: auto;
   text-align: center;
   margin-top: 64px;
+  color: #000;
   margin-bottom: 32px;
 }
 
@@ -247,12 +250,18 @@ p {
   border: 1px solid #b88e2f;
 }
 
+.second-section-button:hover {
+  background-color: #b88e2f;
+  color: #fff;
+}
+
 a.second-section-button {
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* ! */
 
 .last-section h3 {
