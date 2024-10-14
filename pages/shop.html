@@ -3,7 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Furniro Store</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon_io/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon_io/favicon-32x32.png"
+    />
+    <link rel="manifest" href="..favicon_io/site.webmanifest" />
+
     <link rel="stylesheet" href="../css/shop.css" />
   </head>
   <body>
@@ -85,10 +105,32 @@
 
             <div class="filter-section">
               <h4>Show</h4>
-              <input class="input" type="number" placeholder="16" />
+              <form>
+                <label for="number"></label>
+
+                <input
+                  class="input"
+                  type="number"
+                  id="number"
+                  name="number"
+                  autocomplete="on"
+                  placeholder="16"
+                />
+              </form>
 
               <h4>Short by</h4>
-              <input class="input text" type="text" placeholder="Default" />
+              <form>
+                <label for="text"></label>
+
+                <input
+                  class="input text"
+                  type="text"
+                  id="text"
+                  name="text"
+                  autocomplete="on"
+                  placeholder="Default"
+                />
+              </form>
             </div>
           </div>
         </div>
@@ -291,7 +333,14 @@
           <div class="footer-column">
             <h3>Newsletter</h3>
             <form>
-              <input type="email" placeholder="Enter Your Email Address" />
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="on"
+                placeholder="Enter Your Email Address"
+              />
               <button type="submit">SUBSCRIBE</button>
             </form>
           </div>
